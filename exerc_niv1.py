@@ -8,14 +8,14 @@ def conte_vogais(palavra):
             contador += 1
     return contador
 
-# Exemplo a) usando uma palavra passada via parâmetro da função
+# Alternativa A) usando uma palavra passada via parâmetro da função
 print('---------------------------######---------------------------')
 print('Letra A')
 palavra_parametro = "Cristianismo"
 resultado_parametro = conte_vogais(palavra_parametro)
 print(f"A palavra '{palavra_parametro}' apresenta {resultado_parametro} vogais.")
 
-# Exemplo b) usando uma palavra recebida via input do usuário
+# Alternativa B) usando uma palavra recebida via input do usuário
 print('---------------------------######---------------------------')
 print('Letra B')
 palavra_input = input("Digite uma palavra: ")
