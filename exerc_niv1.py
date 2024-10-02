@@ -7,7 +7,7 @@ def conte_vogais(palavra):
         if letra in vogais:
             contador += 1
     return contador
-
+    
 # Exemplo a) usando uma palavra passada via parâmetro da função
 print('Letra A')
 palavra_parametro = "Cristianismo"
