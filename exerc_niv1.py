@@ -7,15 +7,17 @@ def conte_vogais(palavra):
         if letra in vogais:
             contador += 1
     return contador
-    
+
 # Exemplo a) usando uma palavra passada via parâmetro da função
+print('---------------------------######---------------------------')
 print('Letra A')
 palavra_parametro = "Cristianismo"
 resultado_parametro = conte_vogais(palavra_parametro)
-print(f"A palavra '{palavra_parametro}' tem {resultado_parametro} vogais.")
+print(f"A palavra '{palavra_parametro}' apresenta {resultado_parametro} vogais.")
 
 # Exemplo b) usando uma palavra recebida via input do usuário
+print('---------------------------######---------------------------')
 print('Letra B')
 palavra_input = input("Digite uma palavra: ")
 resultado_input = conte_vogais(palavra_input)
-print(f"A palavra '{palavra_input}' tem {resultado_input} vogais.")
+print(f"A palavra '{palavra_input}' possui {resultado_input} vogais.")
